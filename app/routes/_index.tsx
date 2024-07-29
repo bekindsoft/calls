@@ -1,6 +1,4 @@
 import type { ActionFunction, LoaderFunctionArgs } from '@remix-run/cloudflare'
-import { useState, useEffect } from 'react';
-import slugify from 'slugify';
 import { json, redirect } from '@remix-run/cloudflare'
 import { Form, useLoaderData, useNavigate } from '@remix-run/react'
 import { nanoid } from 'nanoid'
